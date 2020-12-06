@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1 id=changableTitle>Let׳s Play Morde Says!</h1>
+    <div class="btnDiv">
+        <button id=startBtn onclick="computerPickColor()">Start Game</button>
+    </div>
+    <div class="colorsDiv">
+        <img src="img/blue.png" name="blue" onClick=handleClick(event) id="blue">
+        <img src="img/green.png" name="green" onClick=handleClick(event) id="green">
+    </div>
+    <div>
+        <img src="img/red.png" name="red" onClick=handleClick(event) id="red">
+        <img src="img/yellow.png" name="yellow" onClick=handleClick(event) id="yellow">
+    </div>
+</div>
+<div id="alerts" style="display: none;"></div>
+<script src="js.js"></script>
+</body>
+</html>
